@@ -59,11 +59,3 @@ This repository encompasses a comprehensive three‑milestone project to design,
 ## Contributing
 
 Contributions and feedback are welcome. Please submit issues or pull requests to suggest enhancements to the schema, queries, or analytics.
-
-## License & Contact
-
-This project is for academic purposes. For questions or collaboration, contact:
-
-**Sushmitha Meduri**
-MS Data Science, Seattle University
-Email: [sushmitha.meduri@example.com](mailto:sushmitha.meduri@example.com)
