@@ -31,6 +31,12 @@ This repository encompasses a comprehensive three‑milestone project to design,
 * **Environment**: Python 3.8+ with libraries defined in `requirements.txt`
 * **Visualization**: Tableau Desktop (for dashboards)
 
+## Application Architecture:
+* Built with Python's Tkinter for the GUI framework
+* MySQL connector for real-time database operations
+* Integration with Tableau Public for visual analytics
+* Responsive UI with full-screen capability and splash screen
+* 
 ## Setup & Usage
 
 1. **Schema Import**
@@ -56,7 +62,8 @@ This repository encompasses a comprehensive three‑milestone project to design,
 
    * Open Tableau and connect to the live database, or use links in `milestone3tableaulinks.docx`.
 
-![blood_bank_diagram](https://github.com/user-attachments/assets/d2a93232-909f-4399-ab2d-dbfd6c918f33)
+![architecture](https://github.com/user-attachments/assets/0fd4c43e-84c0-4a66-978f-79839f6b142a)
+
 
 ## Contributing
 
