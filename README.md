@@ -1,70 +1,72 @@
-# Blood Bank Database Management System
+# Blood Bank Management System (BBMS)
+# Table of Contents
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Visualizations](#visualizations)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [How to Use](#how-to-use)
+  - [Versioning](#versioning)
 
-## Project Description
+## Overview 
+[Back to top](#table-of-contents)
 
-This repository encompasses a comprehensive three‑milestone project to design, build, and analyze a relational database for a blood bank. The system supports donor management, blood inventory tracking, transfusion requests, and analytical reporting to aid decision‑making.
+The Blood Bank Management System (BBMS) is an application designed to facilitate the querying and visualization of blood bank data. It provides a user-friendly interface to execute predefined SQL queries, access donor information, manage blood inventory, and visualize data analytics through integrated Tableau visualizations.
 
-## Milestones
+## Features 
+[Back to top](#table-of-contents)
 
-### Milestone 1: Conceptual Design
+- **Database Connectivity**: Offers secure login and connectivity to a MySQL database, ensuring data integrity and easy data retrieval.
+- **Predefined Queries**: Enables users to perform common blood bank-related SQL queries through a simple and intuitive interface.
+- **Data Visualization**: Integrates Tableau visualizations to offer comprehensive data analytics and reporting capabilities.
+- **Interactive UI**: Delivers a streamlined user experience with a clean and navigable graphical interface.
 
-* **ER Diagram**: Developed in MySQL Workbench (`Final_ER_Model.mwb`)
-* **Deliverables**: Conceptual schema capturing entities such as Donor, Blood Unit, Hospital, and Transfusion
+## Visualizations 
+[Back to top](#table-of-contents)
 
-### Milestone 2: Logical Implementation
+BBMS integrates Tableau for advanced data analysis and visual reporting. Users can access various visualizations for insights into blood bank operations and trends.
 
-* **Schema Definition**: SQL DDL scripts (`MILESTONE2QUERY.sql`) for table creation, keys, and constraints
-* **Sample Queries**: DML examples illustrating common operations (e.g., registering donors, recording donations, fulfilling transfusion requests)
-* **Report**: Detailed write‑up of logical design and query rationale (`MILESTONE2.pdf`)
+## Getting Started 
+[Back to top](#table-of-contents)
 
-### Milestone 3: Physical Model & Analytics
+Follow these instructions to set up BBMS on your local environment for development and testing purposes.
 
-* **Data Population**: Database dump with sample data (`MILESTONE3DUMP.sql`)
-* **MySQL Workbench Model**: Updated physical schema (`MILESTONE3.mwb`)
-* **Data Analysis**: Jupyter Notebook (`MILESTONE3code.ipynb`) performing exploratory analysis on donation and transfusion patterns
-* **Presentation**: Slide deck summarizing key design decisions and findings (`MILESTONE3 .pptx`)
-* **Tableau Dashboards**: Links to interactive dashboards (`milestone3tableaulinks.docx`)
+### Prerequisites 
+[Back to top](#table-of-contents)
 
-## Prerequisites
+Ensure you have the following prerequisites installed on your system:
+- Python 3.x
+- Tkinter library (usually included with Python installation)
+- MySQL Connector for Python
+- Access to Tableau Public (for embedded visualizations)
 
-* **Database**: MySQL Server & MySQL Workbench
-* **Environment**: Python 3.8+ with libraries defined in `requirements.txt`
-* **Visualization**: Tableau Desktop (for dashboards)
+### Installation 
+[Back to top](#table-of-contents)
 
-## Application Architecture:
-* Built with Python's Tkinter for the GUI framework
-* MySQL connector for real-time database operations
-* Integration with Tableau Public for visual analytics
-* Responsive UI with full-screen capability and splash screen
-* 
-## Setup & Usage
+1. Clone the repository to your local machine using `git clone https://github.com/Ruqhaiya/Blood-Bank-Management-System.git'
+2. Navigate to the cloned directory and install the required dependencies by running `pip install -r requirements.txt` in your terminal.
+3. Start the application by running `python bbms.py`.
 
-1. **Schema Import**
+## How to Use 
+[Back to top](#table-of-contents)
 
-   * Open `Final_ER_Model.mwb` in MySQL Workbench and forward engineer to create the database schema.
-2. **Database Creation**
+Upon launching BBMS, you will be greeted with a login prompt to connect to your MySQL database. After a successful login, the main interface allows you to:
+- Select and execute predefined SQL queries from the menu.
+- Access and interact with embedded Tableau visualizations for enhanced data analysis.
 
-   ```bash
-   mysql -u <username> -p < MILESTONE2QUERY.sql
-   ```
-3. **Data Loading**
+![image](https://github.com/Ruqhaiya/Blood-Bank-Management-System/assets/55420948/b7a4f819-111c-404f-a0a3-d87d30120a4c)
 
-   ```bash
-   mysql -u <username> -p < MILESTONE3DUMP.sql
-   ```
-4. **Run Analysis**
+![image](https://github.com/Ruqhaiya/Blood-Bank-Management-System/assets/55420948/1c6b96c3-72af-4176-9166-3d4ce8caae24)
 
-   ```bash
-   pip install -r requirements.txt
-   jupyter notebook MILESTONE3code.ipynb
-   ```
-5. **View Dashboards**
+![image](https://github.com/Ruqhaiya/Blood-Bank-Management-System/assets/55420948/a108fd98-ab95-460e-b86e-7c7319adafd3)
 
-   * Open Tableau and connect to the live database, or use links in `milestone3tableaulinks.docx`.
+![image](https://github.com/Ruqhaiya/Blood-Bank-Management-System/assets/55420948/ce1c2ae0-65cc-442d-9ab5-4d3ce290e6d0)
 
-![architecture](https://github.com/user-attachments/assets/0fd4c43e-84c0-4a66-978f-79839f6b142a)
+![image](https://github.com/Ruqhaiya/Blood-Bank-Management-System/assets/55420948/2a11fe63-62d6-478d-9475-17df0c0c55fb)
 
 
-## Contributing
+## Versioning 
+[Back to top](#table-of-contents)
 
-Contributions and feedback are welcome. Please submit issues or pull requests to suggest enhancements to the schema, queries, or analytics.
+For the versions available, see the [tags on this repository](https://github.com/<your-username>/bbms/tags).
