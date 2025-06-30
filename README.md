@@ -56,6 +56,8 @@ This repository encompasses a comprehensive three‑milestone project to design,
 
    * Open Tableau and connect to the live database, or use links in `milestone3tableaulinks.docx`.
 
+![blood_bank_diagram](https://github.com/user-attachments/assets/d2a93232-909f-4399-ab2d-dbfd6c918f33)
+
 ## Contributing
 
 Contributions and feedback are welcome. Please submit issues or pull requests to suggest enhancements to the schema, queries, or analytics.
